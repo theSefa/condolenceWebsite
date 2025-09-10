@@ -53,7 +53,7 @@ const BurialDetailsModal: React.FC<Props> = ({ open, onClose }) => {
               Saturday 13th September, 2025 — Final Interment
             </h4>
             <ul className="list-disc pl-5 text-text-secondary mt-2 space-y-1">
-              <li>At Gemade Village, Korinya, Konshisha LGA, Benue State.</li>
+              <li>At Gemade Village, Korinya, Konshisha LGA, Benue State. Starts 10am.</li>
             </ul>
           </section>
         </div>
