@@ -22,7 +22,7 @@ const BurialDetailsModal: React.FC<Props> = ({ open, onClose }) => {
           </h3>
           <button
             onClick={onClose}
-            className="ml-4 rounded-full px-3 py-1 text-sm text-text-secondary hover:text-text-primary hover:bg-secondary"
+            className="ml-2 rounded-full px-3 py-1 text-sm text-text-secondary hover:text-text-primary hover:bg-secondary"
             aria-label="Close burial details"
           >
             Close
@@ -31,30 +31,26 @@ const BurialDetailsModal: React.FC<Props> = ({ open, onClose }) => {
 
         <div className="mt-4 space-y-6 text-sm leading-7">
           <section>
-            <h4 className="font-semibold text-text-primary">
-              Thursday 11th September, 2025 — Service of Songs
-            </h4>
-            <ul className="list-disc pl-5 text-text-secondary mt-2 space-y-1">
-              <li>At URCC/NKST Church, Mabushi-Abuja. 6pm-9pm.</li>
-            </ul>
+            <h4 className="font-semibold text-text-primary">Service of Songs</h4>
+            <p className="text-text-secondary mt-1">Thursday 11th September, 2025</p>
+            <p className="text-text-secondary">at URCC/NKST Church,</p>
+            <p className="text-text-secondary">Mabushi-Abuja</p>
+            <p className="text-text-secondary">6pm-9pm.</p>
           </section>
 
           <section>
-            <h4 className="font-semibold text-text-primary">
-              Friday 12th September, 2025 — Wake
-            </h4>
-            <ul className="list-disc pl-5 text-text-secondary mt-2 space-y-1">
-              <li>At Gemade Village, Korinya, Konshisha LGA, Benue State.</li>
-            </ul>
+            <h4 className="font-semibold text-text-primary">Wake</h4>
+            <p className="text-text-secondary mt-1">Friday 12th September, 2025</p>
+            <p className="text-text-secondary">at Gemade Village, Korinya, Konshisha LGA,</p>
+            <p className="text-text-secondary">Benue State</p>
           </section>
 
           <section>
-            <h4 className="font-semibold text-text-primary">
-              Saturday 13th September, 2025 — Final Interment
-            </h4>
-            <ul className="list-disc pl-5 text-text-secondary mt-2 space-y-1">
-              <li>At Gemade Village, Korinya, Konshisha LGA, Benue State. Starts 10am.</li>
-            </ul>
+            <h4 className="font-semibold text-text-primary">Final interment</h4>
+            <p className="text-text-secondary mt-1">Saturday 13th September, 2025</p>
+            <p className="text-text-secondary">at Gemade Village, Korinya,</p>
+            <p className="text-text-secondary">Konshisha LGA,</p>
+            <p className="text-text-secondary">Benue State.</p>
           </section>
         </div>
       </div>
@@ -63,4 +59,3 @@ const BurialDetailsModal: React.FC<Props> = ({ open, onClose }) => {
 };
 
 export default BurialDetailsModal;
-

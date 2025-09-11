@@ -41,6 +41,14 @@ const Hero: React.FC<Props> = ({ onOpenBiography, onGoToGifts, onOpenBurial }) =
                 Burial Details
               </button>
               <a
+                href="https://us06web.zoom.us/j/82142987684?pwd=eWRrL21CUjcvMlhMYW9lRGVITERadz09"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-border text-text-primary bg-surface hover:bg-secondary transition"
+              >
+                Watch Livestream
+              </a>
+              <a
                 href="/photos"
                 className="px-4 py-2 rounded-full border border-border text-text-primary bg-surface hover:bg-secondary transition"
               >
