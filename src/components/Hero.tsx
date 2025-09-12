@@ -17,9 +17,10 @@ const Hero: React.FC<Props> = ({ onOpenBiography, onGoToGifts, onOpenBurial }) =
               In Loving Memory of Arc (Dr) Terver Gemade
             </h1>
             <p className="mt-4 text-lg text-text-secondary">
-              We celebrate a life well-lived and cherish the stories that continue
-              to warm our hearts. Arc (Dr) Terver Gemade (1957–2025) was a distinguished
-              architect and public servant whose work shaped communities across Nigeria.
+              We celebrate a life well-lived and cherish the stories that
+              continue to warm our hearts. Arc (Dr) Terver Gemade (1957–2025)
+              was a distinguished architect and public servant whose work shaped
+              communities across Nigeria.
             </p>
             <div className="mt-6 h-[1px] w-24 bg-border" />
             <p className="mt-4 text-text-secondary">
@@ -49,11 +50,19 @@ const Hero: React.FC<Props> = ({ onOpenBiography, onGoToGifts, onOpenBurial }) =
                 Watch Livestream
               </a>
               <a
+                href="https://www.instagram.com/tervergemade.life?igsh=b293cGV1djM3d2s1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-border text-text-primary bg-surface hover:bg-secondary transition"
+              >
+                Photo Gallery
+              </a>
+              {/* <a
                 href="/photos"
                 className="px-4 py-2 rounded-full border border-border text-text-primary bg-surface hover:bg-secondary transition"
               >
                 Share a Photo
-              </a>
+              </a> */}
               <button
                 type="button"
                 onClick={onGoToGifts}
